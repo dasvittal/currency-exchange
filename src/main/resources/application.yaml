@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /currency-exchange
+
+exchange:
+  currency:
+    base: EUR
+  scheduler:
+    interval: 500000
